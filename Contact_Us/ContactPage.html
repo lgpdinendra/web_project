@@ -1,0 +1,131 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="ContactPage.css">	
+	</head>
+	
+	<body class="body">
+
+		<div id="main_title">
+			<img src="./images/logo2.jpg" alt="a sample" height="50px">
+			<h4>STUDIO K <b>MUSIC</b> STUDIO PRODUCTION AND SHOP</h4>
+		</div>
+
+		<div class="navbar">
+			<a href="../Our_Studio/ourstudio.html">WELCOME</a>
+			<a href="../Our_Studio/ourstudio.html">STUDIO </a>
+			<a href="../What_We_Do/whatwedo.html">WHAT WE DO</a>
+			<a href="../shop/shop.php">SHOP</a>
+			<a href="../Contact_Us/ContactPage.html">CONTACT</a>
+			<a href="../Contact_Us/FAQ.html">FAQ</a>
+			
+		</div>
+
+		<br><br>
+	
+		<div>
+			<h4 class="head">studio bookings</h4>
+			<p class="content">To book a studio or for any further information, please contact the Studios Team by <a class="link" href="#ContactUs">FILLING OUT THE FORM</a> along with a message, and we will get right back to you.</p>
+		</div>
+		
+		<div>
+			<h4 class="head">events</h4>
+			<p class="content">For inquiries, please contact us on:</p>
+						<table id="tb_events" style="color: white;">
+							<tr>
+								<td align="center" class="tb_events" style="width: 50;"><img class="con_img" src="./Images/email.jpg"></td>
+								<td align="center" class="tb_events"  style="width: 50;"><img class="con_img" src="./Images/Tele.jpg"></td>
+							</tr>
+							<tr>
+								<td align="center" class="tb_events" style="padding-top: 15px;">Email: info@studiok.com</td>
+								<td align="center" class="tb_events" style="padding-top: 15px;">Telephone:<br>  011-2578855</td>
+							</tr>
+						</table>
+			<h4 class="head">find us</h4>
+			
+			<table id="tb_events" style="color: white;">
+				<tr>
+					<td align="center" class="tb_events" style="width: 50;"><img class="con_img" src="./Images/Location.jpg"></td>
+				</tr>
+				<tr>
+					<td align="center" class="tb_events" style="padding-top: 0px;"><address class="content"><br>379/15,<br>Udumulla, Mulleriyawa.</address><br></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div>
+			<h1 id="ContactUs">contact us</h1>
+			
+			<table cellspacing="30px" class="content">
+				<tr>
+					<td>
+						To book a studio please contact the Studio Team by filling out the form and we will get right back to you. You will also receive an automated email reply with all info and FAQs. Please check your spam folder if you do not see this email. Thanks!<br><br>
+						Studio tours are done by appointment only.<br><br>
+						
+						<img class="image" src="./Images/im1.jpg">
+					</td>
+					<td>
+						<form id="form" action="./contact.php" method="post" onsubmit="return validateForm();">
+							Name<br>
+							<input name="fname" class="input1" type="text" placeholder="First Name..." required>
+							<input name="lname" class="input1" type="text" placeholder="Last Name..." required><br><br>
+							Email Address<br>
+							<input name="email" class="input" type="text" placeholder="Your Email..." required id="email"><br><br>
+							Mobile Phone Number<br>
+							<input class="input" id="phone" type="text" name="mobile" placeholder="Your Phone Number..."required><br><br>
+							Do you need to hire place an appointment?
+							<input class="input" type="radio" name="apt" value="yes">Yes
+							<input class="input" type="radio" name="apt" value="no">No<br><br>
+							Message<br>
+							<textarea class="input" rows="5" name="msg" placeholder="Some text..."></textarea><br><br><br>
+							<input type="checkbox" required>
+							I'd like to receive more information about Studio-K, I understand and agree to the Privacy Policy.<br><br>
+							<input class="button" type="submit" value="Submit">
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="navbar-bottom">
+			<table id="abottom" cellspacing="20px">
+				<tr id="bottom-head">
+					<td style="width: 300px;">WELCOME</td>
+					<td style="width: 300px;">OUR STUDIO</td>
+					<td style="width: 300px;">WHAT WE DO</td>
+					<td style="width: 300px;">SHOP</td>
+				</tr>
+				<tr>
+					<td align="center" id="welcome-td" class="data_td">About<br>Writing Camps<br>Studio-K Music Live<br>Blog<br>Privacy Policy</td>
+					<td class="data_td"></td>
+					<td align="center" id="ourstudio-td" class="data_td">Recordings<br>Mixing/Mastering<br>Add Post-Production<br>Voice recordings<br>Publishing<br>Partners</td>
+					<td align="center" id="shop-td" class="data_td">Recordings<br>Studios<br>Productions<br>Artists<br>Bookings</td>
+				</tr>
+				<tr>
+					<td>2023 Studio-K Music Studios</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+			
+		<script type="text/javascript">
+				function validateForm(){
+					var emailjs=document.getElementById("email").value;
+					var phonejs=document.getElementById("phone").value;
+					
+					if(!emailjs.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
+						alert("Invalid email address!");
+						return false;
+					}
+					if(!(phonejs.length == 10)){
+						alert("phone number should not exceed 10 digits");
+						return false;
+					}
+					return true;
+				}
+		</script>
+	</body>
+	
+</html>
+	

@@ -1,0 +1,145 @@
+/* Style the navigation bar */
+.navbar {
+    background-color:rgb(228, 222, 213);
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right:0;
+    z-index: 2;
+    
+    left: 0;
+    right: 0;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #f38b8b;
+    color: black;
+  }
+  
+.body{
+	padding-left:200px;
+	padding-right:200px;
+	padding-top:120px;
+	background-color: #333;
+}
+
+#main_title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(228, 222, 213);
+    color: rgb(7, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right:0;
+    z-index: 2;
+ }
+ 
+.head{
+	color: white;
+	margin-top: 50px;
+	text-transform:uppercase;
+	letter-spacing:0.2cm;
+	font-family:Papyrus;
+	font-size:25px;
+}
+.content{
+	color: aliceblue;
+	font-size:18px;
+}
+
+.tb_events{
+	width: 110px;
+}
+
+.link{
+	text-decoration:none;
+	color:rgb(51, 96, 232);
+}
+#ContactUs{
+	text-align: center;
+	font-family:arial;
+	text-transform:uppercase;
+	font-size:50px;
+	font-weight:bold;
+	color:DarkTurquoise;
+}
+.con_img{
+	height:50px;
+	width:50px;
+}
+.topic{
+	font-family:arial;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+	color:DarkTurquoise;
+	margin-top: 50px;
+}
+.image{
+	height:450px;
+}
+#form{
+	font-size:15px;
+}
+.input1{
+	padding:12px 30px;
+	border-color:DarkTurquoise;
+	border-radius:10px;
+}
+.input{
+	padding:12px 150px;
+	border-color:DarkTurquoise;
+	border-radius:10px;
+}
+.button{
+	background-color:DarkTurquoise;
+	border-radius:10px;
+	width:100%;
+	padding:12px 150px;
+}
+
+/*Navigation bar footer*/
+#navbar-bottom {
+    background-color: #000000;
+    height: 300px;
+
+  }
+
+ #abottom{
+   float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 20px;
+ }
+
+ .data_td{
+   text-align: left;
+   padding-left: 60px;
+   padding-top: 20px;
+ }
+
+ #bottom-head{
+   color: red;
+ }

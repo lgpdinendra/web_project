@@ -1,0 +1,167 @@
+/* Style the navigation bar */
+.navbar {
+    background-color:rgb(228, 222, 213);
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right:0;
+    z-index: 2;
+    
+    left: 0;
+    right: 0;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #f38b8b;
+    color: black;
+  }
+
+body{
+    background-color: #333;
+}
+
+
+#headviddeo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+#video1{    
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 600px;
+    object-fit: cover;
+    position:relative;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    padding-top: 135px;
+  }
+
+ /* Style the Main title */
+ #main_title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(228, 222, 213);
+    color: rgb(7, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right:0;
+    z-index: 2;
+ }
+
+#what_we_do{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:250px;
+	font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+#para1{
+    font-family:Bahnschrift Light;
+	font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#table1{
+    margin-top: 150px;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+#hh1{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 35px;
+    color: #f62323;
+}
+
+#t1{
+    font-family: Bahnschrift Light;
+    color: #f2f2f2;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px ;
+    line-height: 30px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+#clients{
+	font-family: 'Fjalla One',Helvetica,Arial,Lucida,sans-serif;;
+	color: #39a0bf!important;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#clients_table{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#client_image{
+	padding: 25px;
+    text-align: center;
+
+}
+
+
+
+
+
+/*Navigation bar footer*/
+#navbar-bottom {
+    background-color: #000000;
+    height: 300px;
+
+  }
+
+ #abottom{
+   float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 20px;
+ }
+
+ .data_td{
+   text-align: left;
+   padding-left: 60px;
+   padding-top: 20px;
+ }
+
+ #bottom-head{
+   color: red;
+ }

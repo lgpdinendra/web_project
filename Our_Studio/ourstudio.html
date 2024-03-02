@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ourstudio.css">
+    <link rel="stylesheet" href="3d.css">
+</head>
+<body>
+    <div id="main_title">
+        <img src="Images/logo2.jpg" alt="a sample" height="50px">
+        <h4>STUDIO K <b>MUSIC</b> STUDIO PRODUCTION AND SHOP</h4>
+    </div>
+
+    <div class="navbar">
+        <a href="#mainhead">WELCOME</a>
+        <a href="#ourstudiodiv">STUDIO </a>
+        <a href="../What_We_Do/whatwedo.html">WHAT WE DO</a>
+        <a href="../shop/shop.php">SHOP</a>
+        <a href="../Contact_Us/ContactPage.html">CONTACT</a>
+        <a href="../Contact_Us/FAQ.html">FAQ</a>
+        
+    </div>
+
+    <div id="mainhead">
+        <h1 id="hwelcomehead">STUDIO-K MUSIC STUDIO</h1> 
+        <h3 id="hwelcomehead1">A world-class recording studio in the heart of Studio-K</h3>
+    </div>
+        
+            
+            
+    <div id="headviddeo">
+        <video autoplay muted loop id="video1">
+            <source src="images/video.mp4" type="video/mp4" >
+        </video>
+        <a href="../shop/shop.php"><button id="btn" class="overlay-button" >Book Iteam</button></a>
+                
+          </div>
+    </div>
+
+    <script>
+         document.addEventListener("DOMContentLoaded", function () {
+    // Function to handle smooth scrolling
+    function scrollToElement(targetElement) {
+        window.scrollTo({
+            top: targetElement.offsetTop - 100, // Adjust the value as needed
+            behavior: "smooth"
+        });
+    }
+
+    // Add click event listener to the "WELCOME" link
+    const welcomeLink = document.querySelector("a[href='#ourstudiodiv']");
+    if (welcomeLink) {
+        welcomeLink.addEventListener("click", function (e) {
+            e.preventDefault(); // Prevent the default link behavior
+            const targetElement = document.querySelector(this.getAttribute("href"));
+            if (targetElement) {
+                scrollToElement(targetElement);
+            }
+        });
+    }
+});
+</script>
+
+    <div id="ourstudiodiv">
+        <br>
+    <p id="ph1">OUR STUDIO</p>
+
+    <table id="table1">
+        <tr>
+            
+            <td id="img2"><div class="card" id="card1">
+                <div class="glow"></div>
+                <!--<img src="images/1.jpg" id="img1">-->
+            </div>
+            </td>
+            <td><div class="card" id="card2">
+                <div class="glow"></div>
+                <!--<img src="images/1.jpg" id="img1">-->
+            </div>
+            </td>
+            <td><div class="card" id="card3">
+                <div class="glow"></div>
+                <!--<img src="images/1.jpg" id="img1">-->
+            </div></td>
+            
+        </tr>
+        <tr>
+            <td id="t1"><h4 id="hh1">LIVE PRACTISEROOM</h4><br>
+                With almost 8-meter ceiling height, our Live Room offers a fantastic ambiance/acoustics and includes a selection of the finest microphones on the planet. With a full instrument backline, Grand Piano, and PA system it also makes the perfect venue for intimate show-cases.
+            </td>
+            <td id="t1"><h4 id="hh1">MAIN ROOM</h4><br>
+                This is our main recording and mix facility. It has everything you would expect from a classic analog studio, combined with the latest technology and audio connections to all rooms in the building. A 48-channel Solid State Logic Duality desk as a centerpiece and ATC SCM150 speakers as main monitors.</td>
+            <td id="t11"><h4 id="hh1">PRODUCTION STUDIO ROOM</h4><br>
+                This is our main production studio on floor one. Built for the modern producer with an amazing Augspurger monitor system and a variety of synths and drum machines.
+            </td>
+        </tr>
+        <tr>
+            <td id="img2"><div class="card" id="card4">
+                <div class="glow"></div>
+                <!--<img src="images/1.jpg" id="img1">-->
+            </div></td>
+            <td><div class="card" id="card5">
+                <div class="glow"></div>
+                <!--<img src="images/1.jpg" id="img1">-->
+            </div></td>
+            <td><div class="card" id="card6">
+                <div class="glow"></div>
+                <!--<img src="images/1.jpg" id="img1">-->
+            </div></td>
+        </tr>
+        <tr>
+            <td id="t1"><h4 id="hh1">RECORDING STUDIO ROOM</h4><br>
+                This is our surround studio for post-production and ADR but can be used to record, mix, and produce music. The room has windows into the Live Room balcony and is right next to the rooftop terrace stairs and the kitchen/lounge.</td>
+            <td id="t1"><h4 id="hh1">VEDIO GRAPHY ROOM</h4><br>
+                One of our three project studios. This room has a window into the downstairs vocal booth and is perfect for any voice-over or dubbing session. There is a lounge right next to it, where many clients go to write lyrics, rest or have a cup of coffee.    
+                <td id="t111"><h4 id="hh1">SOUND PRACTISE ROOM 2</h4><br>
+                    Are two of our three smaller studios on floor one. Perfect for two songwriters or a producer and a singer/artist. The rooms can be connected to the vocal booth or any other room in the house. Our clients bring their own laptops on floor one and run them with the Apollo Twin or interfaces. Our engineers will help you set up in a few minutes. 
+                </td>
+        </tr>
+    </table>
+        <script src="3d.js"></script>
+    </div>
+    <br>
+    <p id="p2">We have six studios, a live room, and two vocal booths on three floors in the<br> middle of Studio-K. Welcome to Our Studio .</p>
+    
+    <div id="navbar-bottom">
+        <table id="abottom" cellspacing="20px">
+            <tr id="bottom-head">
+                <td style="width: 300px;">WELCOME</td>
+                <td style="width: 300px;">OUR STUDIO</td>
+                <td style="width: 300px;">WHAT WE DO</td>
+                <td style="width: 300px;">SHOP</td>
+            </tr>
+            <tr>
+                <td  id="welcome-td" class="data_td">About<br>Writing Camps<br>Studio-K Music Live<br>Blog<br>Privacy Policy</td>
+                <td  id="ourstudio-td" class="data_td">Recordings<br>Mixing/Mastering<br>Add Post-Production<br>Voice recordings<br>Publishing<br>Partners</td>
+                <td class="data_td"></td>
+                <td  id="shop-td" class="data_td">Recordings<br>Studios<br>Productions<br>Artists<br>Bookings</td>
+            </tr>
+            <tr>
+                <td id="s2023-td">2023 Studio-K Music Studios</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
